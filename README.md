@@ -76,7 +76,8 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 #### Команды смены типа аутентификации пользователя sys_temp:
 
-```	SELECT CURRENT_USER();
+```
+	SELECT CURRENT_USER();
 	ALTER USER 'sys_temp'@'%' IDENTIFIED WITH mysql_native_password BY 'pass123';
 ```
 
@@ -89,7 +90,8 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 #### Команды импорта схемы и БД:
 
-```	mysql -uroot -p < sakila-schema.sql
+```
+	mysql -uroot -p < sakila-schema.sql
 	mysql -uroot -p < sakila-data.sql
 ```
 
