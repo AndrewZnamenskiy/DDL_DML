@@ -44,7 +44,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
-#### Команда выводв списка пользователей MySQL:
+#### Команда вывода списка пользователей MySQL:
 
 `SELECT User FROM mysql.user;`
 
