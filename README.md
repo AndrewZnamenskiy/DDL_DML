@@ -55,7 +55,8 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 #### Команда для повышения прав учётной записи sys_temp:
 
-```	mysql> GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%';	
+```
+	mysql> GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%';	
 	mysql> FLUSH PRIVILEGES;
 ```
 
