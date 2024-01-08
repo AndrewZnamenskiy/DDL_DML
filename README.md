@@ -95,13 +95,10 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 	mysql -uroot -p < sakila-data.sql
 ```
 
-![Commit Task1](https://github.com/AndrewZnamenskiy/DDL_DML/blob/main/img/task1p7.png)
-
-
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. (скриншот)
 
 
-![Commit Task1](https://github.com/AndrewZnamenskiy/DDL_DML/blob/main/img/task1p8.png)
+![Commit Task1](https://github.com/AndrewZnamenskiy/DDL_DML/blob/main/img/task1p7.png)
 
 
 ### Решение 2
