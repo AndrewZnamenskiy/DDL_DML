@@ -100,6 +100,8 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ![Commit Task1](https://github.com/AndrewZnamenskiy/DDL_DML/blob/main/img/task1p7.png)
 
+### Задание 2
+Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц.
 
 ### Решение 2
 
